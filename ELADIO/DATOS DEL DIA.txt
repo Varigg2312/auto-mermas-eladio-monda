@@ -3,7 +3,7 @@
    Rellena los datos y ejecuta:  node generar_eladio.js
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Fecha de hoy:    28/06/2026
+Fecha de hoy:    29/06/2026
 Operador:        Alimentos El Hortelano
 
 
@@ -15,16 +15,16 @@ Operador:        Alimentos El Hortelano
 
 ▌ GAZPACHO EXPEDIDO HOY
 
-   Litros expedidos:    0
-   Número de albarán:
-   % de merma:                     ← dejar vacío = 5% por defecto
+   Litros expedidos:   80
+   Número de albarán: 29/06/2026
+   % de merma:       2              ← dejar vacío = 5% por defecto
 
 
 ▌ SALMOREJO EXPEDIDO HOY
 
-   Kilos expedidos:     0
-   Número de albarán:
-   % de merma:                     ← dejar vacío = 5% por defecto
+   Kilos expedidos:     18
+   Número de albarán: 29/06/2026
+   % de merma:         2            ← dejar vacío = 5% por defecto
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

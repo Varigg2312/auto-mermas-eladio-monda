@@ -77,6 +77,12 @@
       "ref": "101Z.391.21.643",
       "qty": 189.2,
       "operator": "Manual"
+    },
+    {
+      "date": "29/06/2026",
+      "ref": "101Z.126.23744",
+      "qty": 305,
+      "operator": "Alimentos El Hortelano"
     }
   ],
   "salidas": [
@@ -287,6 +293,22 @@
       "qty": 250,
       "merma": 5,
       "operator": "Manual"
+    },
+    {
+      "date": "29/06/2026",
+      "type": "GAZ",
+      "ref": "29/06/2026",
+      "qty": 175,
+      "merma": 2,
+      "operator": "Alimentos El Hortelano"
+    },
+    {
+      "date": "29/06/2026",
+      "type": "SAL",
+      "ref": "29/06/2026",
+      "qty": 121.5,
+      "merma": 2,
+      "operator": "Alimentos El Hortelano"
     }
   ],
   "merma_defecto": 5

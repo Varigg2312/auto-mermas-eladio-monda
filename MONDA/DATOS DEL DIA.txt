@@ -3,28 +3,28 @@
    Rellena los datos y ejecuta:  node generar_monda.js
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Fecha de hoy:    28/06/2026
+Fecha de hoy:    29/06/2026
 Operador:        Alimentos El Hortelano
 
 
 ▌ TOMATE RECIBIDO HOY
 
-   Kilos recibidos:     0
-   Número de albarán:
+   Kilos recibidos:     305
+   Número de albarán: 101Z.126.23744
 
 
 ▌ GAZPACHO EXPEDIDO HOY
 
-   Litros expedidos:    0
-   Número de albarán:
-   % de merma:                     ← dejar vacío = 5% por defecto
+   Litros expedidos:    175
+   Número de albarán: 29/06/2026
+   % de merma:          2           ← dejar vacío = 5% por defecto
 
 
 ▌ SALMOREJO EXPEDIDO HOY
 
-   Kilos expedidos:     0
-   Número de albarán:
-   % de merma:                     ← dejar vacío = 5% por defecto
+   Kilos expedidos:     121.5
+   Número de albarán: 29/06/2026
+   % de merma:          2           ← dejar vacío = 5% por defecto
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -533,6 +533,22 @@
       "qty": 4.5,
       "merma": 5,
       "operator": "Manual"
+    },
+    {
+      "date": "29/06/2026",
+      "type": "GAZ",
+      "ref": "29/06/2026",
+      "qty": 80,
+      "merma": 2,
+      "operator": "Alimentos El Hortelano"
+    },
+    {
+      "date": "29/06/2026",
+      "type": "SAL",
+      "ref": "29/06/2026",
+      "qty": 18,
+      "merma": 2,
+      "operator": "Alimentos El Hortelano"
     }
   ],
   "merma_defecto": 5
