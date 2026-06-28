@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Registro — Monda Gazpacho</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;color:#222;background:#f4f6f8}
+  .topbar{background:#1a1a2e;color:#fff;padding:18px 28px;display:flex;justify-content:space-between;align-items:center}
+  .topbar h1{font-size:20px;font-weight:700;letter-spacing:1px}
+  .topbar h1 span{color:#e74c3c}
+  .topbar .upd{font-size:12px;color:#aaa;text-align:right}
+  .kpis{display:flex;gap:14px;padding:18px 28px;background:#fff;border-bottom:1px solid #e0e0e0;flex-wrap:wrap}
+  .kpi{flex:1;min-width:120px;border:1px solid #e0e0e0;padding:14px 16px;border-radius:8px;text-align:center;background:#fff}
+  .kpi .lbl{font-size:11px;text-transform:uppercase;color:#888;font-weight:600;margin-bottom:6px;display:block;letter-spacing:.5px}
+  .kpi .val{font-size:22px;font-weight:700;font-family:monospace;display:block}
+  .kpi-gain{background:#eafaf1;border-color:#27ae60}.kpi-gain .val{color:#27ae60}
+  .kpi-loss{background:#fdf2f2;border-color:#c0392b}.kpi-loss .val{color:#c0392b}
+  .kpi-dark{background:#1a1a2e;border-color:#1a1a2e}.kpi-dark .lbl,.kpi-dark .val{color:#fff}
+  .kpi-slate{background:#2c3e50;border-color:#2c3e50}.kpi-slate .lbl,.kpi-slate .val{color:#fff}
+  .sec{margin:20px 28px}
+  .sec-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#fff;background:#2c3e50;padding:10px 16px;border-radius:6px 6px 0 0;display:flex;justify-content:space-between;align-items:center}
+  .sec-title .cnt{font-size:11px;font-weight:400;background:rgba(255,255,255,.2);padding:2px 8px;border-radius:10px}
+  .twrap{overflow-x:auto;background:#fff;border-radius:0 0 6px 6px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  thead th{background:#f0f2f5;color:#555;padding:10px 12px;text-align:center;font-size:12px;font-weight:600;border-bottom:2px solid #ddd;white-space:nowrap;position:sticky;top:0;z-index:1}
+  td{padding:9px 12px;border-bottom:1px solid #f0f0f0;text-align:center;vertical-align:middle}
+  tr:hover td{background:#f7f9fc!important}
+  tr:last-child td{border-bottom:none}
+  tfoot td{background:#f0f2f5!important;font-weight:700;border-top:2px solid #ddd;color:#333}
+  .num{font-family:monospace;text-align:right;font-weight:600}
+  .n{color:#bbb;font-size:11px}
+  .ok{color:#27ae60;font-weight:700}.warn{color:#e67e22;font-weight:700}.bad{color:#c0392b;font-weight:700;background:#fff8f8}
+  .tipo-gaz{color:#2980b9;font-weight:700;font-size:11px;letter-spacing:.5px}
+  .tipo-sal{color:#8e44ad;font-weight:700;font-size:11px;letter-spacing:.5px}
+  .empty{text-align:center;color:#bbb;font-style:italic;padding:20px}
+  .foot{text-align:center;padding:16px;font-size:11px;color:#aaa;margin-bottom:10px}
+</style>
+</head><body>
+
+<div class="topbar">
+  <div>
+    <h1>REGISTRO ACUMULADO &nbsp;—&nbsp; <span>MONDA GAZPACHO</span></h1>
+    <div style="font-size:12px;color:#aaa;margin-top:4px">Control de Mermas en Expedición</div>
+  </div>
+  <div class="upd">Última actualización:<br><strong style="color:#fff">28/6/2026</strong></div>
+</div>
+
+<div class="kpis">
+  <div class="kpi"><span class="lbl">Tomate Stock Bruto</span><span class="val">2946,00 kg</span></div>
+  <div class="kpi"><span class="lbl">Tomate Consumido</span><span class="val">3374,16 kg</span></div>
+  <div class="kpi kpi-loss"><span class="lbl">Balance Inventario</span><span class="val">-428,16 kg</span></div>
+  <div class="kpi"><span class="lbl">Desperdicio Total</span><span class="val" style="color:#aaa">339,33 kg</span></div>
+  <div class="kpi kpi-dark"><span class="lbl">Total Gazpacho</span><span class="val">3200,00 L</span></div>
+  <div class="kpi kpi-slate"><span class="lbl">Total Salmorejo</span><span class="val">901,50 kg</span></div>
+</div>
+
+<div class="sec">
+  <div class="sec-title">Recepción de Tomate Bruto <span class="cnt">13 entradas</span></div>
+  <div class="twrap"><table>
+    <thead><tr><th>#</th><th>Fecha</th><th>Ref. / Albarán</th><th>Operador</th><th>Masa Bruta</th></tr></thead>
+    <tbody><tr>
+            <td class="n">1</td>
+            <td>22/06/2026</td>
+            <td>101G.126.23212</td>
+            <td>Manual</td>
+            <td class="num">340,00 kg</td>
+          </tr><tr>
+            <td class="n">2</td>
+            <td>18/06/2026</td>
+            <td>101G.126.23212</td>
+            <td>Manual</td>
+            <td class="num">217,00 kg</td>
+          </tr><tr>
+            <td class="n">3</td>
+            <td>15/06/2026</td>
+            <td>101Z.212.23256</td>
+            <td>Manual</td>
+            <td class="num">266,00 kg</td>
+          </tr><tr>
+            <td class="n">4</td>
+            <td>11/06/2026</td>
+            <td>101Z.51.22654</td>
+            <td>Manual</td>
+            <td class="num">263,00 kg</td>
+          </tr><tr>
+            <td class="n">5</td>
+            <td>08/06/2026</td>
+            <td>101Z.212.21961</td>
+            <td>Manual</td>
+            <td class="num">216,00 kg</td>
+          </tr><tr>
+            <td class="n">6</td>
+            <td>04/06/2026</td>
+            <td>101Z.212.21959</td>
+            <td>Manual</td>
+            <td class="num">231,50 kg</td>
+          </tr><tr>
+            <td class="n">7</td>
+            <td>01/06/2026</td>
+            <td>101Z.51.22654</td>
+            <td>Manual</td>
+            <td class="num">196,00 kg</td>
+          </tr><tr>
+            <td class="n">8</td>
+            <td>28/05/2026</td>
+            <td>101Z.51.21869</td>
+            <td>Manual</td>
+            <td class="num">201,00 kg</td>
+          </tr><tr>
+            <td class="n">9</td>
+            <td>25/05/2026</td>
+            <td>101Z.51.21869</td>
+            <td>Manual</td>
+            <td class="num">224,70 kg</td>
+          </tr><tr>
+            <td class="n">10</td>
+            <td>21/05/2026</td>
+            <td>101Z.391.21643</td>
+            <td>Manual</td>
+            <td class="num">183,00 kg</td>
+          </tr><tr>
+            <td class="n">11</td>
+            <td>18/05/2026</td>
+            <td>101Z.51.21800</td>
+            <td>Manual</td>
+            <td class="num">233,60 kg</td>
+          </tr><tr>
+            <td class="n">12</td>
+            <td>15/05/2026</td>
+            <td>101Z.51.21800</td>
+            <td>Manual</td>
+            <td class="num">185,00 kg</td>
+          </tr><tr>
+            <td class="n">13</td>
+            <td>13/05/2026</td>
+            <td>101Z.391.21.643</td>
+            <td>Manual</td>
+            <td class="num">189,20 kg</td>
+          </tr></tbody>
+    <tfoot><tr><td colspan="4" style="text-align:right">TOTAL RECIBIDO</td><td class="num">2946,00 kg</td></tr></tfoot>
+  </table></div>
+</div>
+
+<div class="sec">
+  <div class="sec-title">Expedición de Producto Terminado <span class="cnt">26 salidas</span></div>
+  <div class="twrap"><table>
+    <thead><tr><th>#</th><th>Fecha</th><th>Tipo</th><th>Ref. / Albarán</th><th>Operador</th><th>Cantidad</th><th>Merma %</th><th>Tomate cons.</th></tr></thead>
+    <tbody><tr>
+                <td class="n">1</td>
+                <td>25/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">125,00 kg</td>
+                <td class="num ok">3,00 %</td>
+                <td class="num">128,87 kg</td>
+              </tr><tr>
+                <td class="n">2</td>
+                <td>25/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">175,00 L</td>
+                <td class="num ok">3,00 %</td>
+                <td class="num">120,27 kg</td>
+              </tr><tr>
+                <td class="n">3</td>
+                <td>22/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">125,00 kg</td>
+                <td class="num bad">30,00 %</td>
+                <td class="num">178,57 kg</td>
+              </tr><tr>
+                <td class="n">4</td>
+                <td>22/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">175,00 L</td>
+                <td class="num bad">30,00 %</td>
+                <td class="num">166,67 kg</td>
+              </tr><tr>
+                <td class="n">5</td>
+                <td>18/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">125,00 kg</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">131,58 kg</td>
+              </tr><tr>
+                <td class="n">6</td>
+                <td>18/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">175,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">122,81 kg</td>
+              </tr><tr>
+                <td class="n">7</td>
+                <td>15/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">125,00 kg</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">131,58 kg</td>
+              </tr><tr>
+                <td class="n">8</td>
+                <td>15/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">175,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">122,81 kg</td>
+              </tr><tr>
+                <td class="n">9</td>
+                <td>11/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">125,00 kg</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">131,58 kg</td>
+              </tr><tr>
+                <td class="n">10</td>
+                <td>11/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">175,44 kg</td>
+              </tr><tr>
+                <td class="n">11</td>
+                <td>10/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">125,00 kg</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">131,58 kg</td>
+              </tr><tr>
+                <td class="n">12</td>
+                <td>10/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">175,44 kg</td>
+              </tr><tr>
+                <td class="n">13</td>
+                <td>08/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">175,44 kg</td>
+              </tr><tr>
+                <td class="n">14</td>
+                <td>05/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">45,00 kg</td>
+                <td class="num ok">8,00 %</td>
+                <td class="num">48,91 kg</td>
+              </tr><tr>
+                <td class="n">15</td>
+                <td>04/06/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">36,00 kg</td>
+                <td class="num bad">30,00 %</td>
+                <td class="num">51,43 kg</td>
+              </tr><tr>
+                <td class="n">16</td>
+                <td>04/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num bad">30,00 %</td>
+                <td class="num">238,10 kg</td>
+              </tr><tr>
+                <td class="n">17</td>
+                <td>01/06/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">8,00 %</td>
+                <td class="num">181,16 kg</td>
+              </tr><tr>
+                <td class="n">18</td>
+                <td>28/05/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">30,00 kg</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">31,58 kg</td>
+              </tr><tr>
+                <td class="n">19</td>
+                <td>28/05/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">175,44 kg</td>
+              </tr><tr>
+                <td class="n">20</td>
+                <td>25/05/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">175,44 kg</td>
+              </tr><tr>
+                <td class="n">21</td>
+                <td>21/05/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">13,50 kg</td>
+                <td class="num ok">10,00 %</td>
+                <td class="num">15,00 kg</td>
+              </tr><tr>
+                <td class="n">22</td>
+                <td>21/05/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">10,00 %</td>
+                <td class="num">185,19 kg</td>
+              </tr><tr>
+                <td class="n">23</td>
+                <td>18/05/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">175,44 kg</td>
+              </tr><tr>
+                <td class="n">24</td>
+                <td>18/05/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">13,50 kg</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">14,21 kg</td>
+              </tr><tr>
+                <td class="n">25</td>
+                <td>15/05/2026</td>
+                <td class="tipo-sal">SALMOREJO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">13,50 kg</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">14,21 kg</td>
+              </tr><tr>
+                <td class="n">26</td>
+                <td>15/05/2026</td>
+                <td class="tipo-gaz">GAZPACHO</td>
+                <td>—</td>
+                <td>Manual</td>
+                <td class="num">250,00 L</td>
+                <td class="num ok">5,00 %</td>
+                <td class="num">175,44 kg</td>
+              </tr></tbody>
+    <tfoot><tr><td colspan="5" style="text-align:right">TOTAL EXPEDIDO / CONSUMIDO</td><td class="num">3200,00 L + 901,50 kg</td><td></td><td class="num">3374,16 kg</td></tr></tfoot>
+  </table></div>
+</div>
+
+<div class="foot">
+  Colores merma: <span style="color:#27ae60">■</span> Normal &nbsp;
+  <span style="color:#e67e22">■</span> Elevada (&gt;23.0%) &nbsp;
+  <span style="color:#c0392b">■</span> Alta (&gt;28.0%) &nbsp;|&nbsp;
+  Ratio: Gazpacho 1,5 L/kg neto · Salmorejo 1 kg/kg neto
+</div>
+
+</body></html>

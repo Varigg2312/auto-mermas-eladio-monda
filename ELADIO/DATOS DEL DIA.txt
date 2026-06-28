@@ -1,0 +1,33 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   PARTE DIARIO DE MERMAS — EL HORTELANO
+   Rellena los datos y ejecuta:  node generar_eladio.js
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Fecha de hoy:    28/06/2026
+Operador:        Alimentos El Hortelano
+
+
+▌ TOMATE RECIBIDO HOY
+
+   Kilos recibidos:     0
+   Número de albarán:
+
+
+▌ GAZPACHO EXPEDIDO HOY
+
+   Litros expedidos:    0
+   Número de albarán:
+   % de merma:                     ← dejar vacío = 5% por defecto
+
+
+▌ SALMOREJO EXPEDIDO HOY
+
+   Kilos expedidos:     0
+   Número de albarán:
+   % de merma:                     ← dejar vacío = 5% por defecto
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Si hoy no hay algún producto: deja el campo vacío
+  o pon 0 y el script lo saltará automáticamente.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

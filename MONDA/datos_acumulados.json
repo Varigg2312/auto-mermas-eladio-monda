@@ -1,0 +1,293 @@
+{
+  "entradas": [
+    {
+      "date": "22/06/2026",
+      "ref": "101G.126.23212",
+      "qty": 340,
+      "operator": "Manual"
+    },
+    {
+      "date": "18/06/2026",
+      "ref": "101G.126.23212",
+      "qty": 217,
+      "operator": "Manual"
+    },
+    {
+      "date": "15/06/2026",
+      "ref": "101Z.212.23256",
+      "qty": 266,
+      "operator": "Manual"
+    },
+    {
+      "date": "11/06/2026",
+      "ref": "101Z.51.22654",
+      "qty": 263,
+      "operator": "Manual"
+    },
+    {
+      "date": "08/06/2026",
+      "ref": "101Z.212.21961",
+      "qty": 216,
+      "operator": "Manual"
+    },
+    {
+      "date": "04/06/2026",
+      "ref": "101Z.212.21959",
+      "qty": 231.5,
+      "operator": "Manual"
+    },
+    {
+      "date": "01/06/2026",
+      "ref": "101Z.51.22654",
+      "qty": 196,
+      "operator": "Manual"
+    },
+    {
+      "date": "28/05/2026",
+      "ref": "101Z.51.21869",
+      "qty": 201,
+      "operator": "Manual"
+    },
+    {
+      "date": "25/05/2026",
+      "ref": "101Z.51.21869",
+      "qty": 224.7,
+      "operator": "Manual"
+    },
+    {
+      "date": "21/05/2026",
+      "ref": "101Z.391.21643",
+      "qty": 183,
+      "operator": "Manual"
+    },
+    {
+      "date": "18/05/2026",
+      "ref": "101Z.51.21800",
+      "qty": 233.6,
+      "operator": "Manual"
+    },
+    {
+      "date": "15/05/2026",
+      "ref": "101Z.51.21800",
+      "qty": 185,
+      "operator": "Manual"
+    },
+    {
+      "date": "13/05/2026",
+      "ref": "101Z.391.21.643",
+      "qty": 189.2,
+      "operator": "Manual"
+    }
+  ],
+  "salidas": [
+    {
+      "date": "25/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 125,
+      "merma": 3,
+      "operator": "Manual"
+    },
+    {
+      "date": "25/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 175,
+      "merma": 3,
+      "operator": "Manual"
+    },
+    {
+      "date": "22/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 125,
+      "merma": 30,
+      "operator": "Manual"
+    },
+    {
+      "date": "22/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 175,
+      "merma": 30,
+      "operator": "Manual"
+    },
+    {
+      "date": "18/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 125,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "18/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 175,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "15/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 125,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "15/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 175,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "11/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 125,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "11/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "10/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 125,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "10/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "08/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "05/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 45,
+      "merma": 8,
+      "operator": "Manual"
+    },
+    {
+      "date": "04/06/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 36,
+      "merma": 30,
+      "operator": "Manual"
+    },
+    {
+      "date": "04/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 30,
+      "operator": "Manual"
+    },
+    {
+      "date": "01/06/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 8,
+      "operator": "Manual"
+    },
+    {
+      "date": "28/05/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 30,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "28/05/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "25/05/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "21/05/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 13.5,
+      "merma": 10,
+      "operator": "Manual"
+    },
+    {
+      "date": "21/05/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 10,
+      "operator": "Manual"
+    },
+    {
+      "date": "18/05/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "18/05/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 13.5,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "15/05/2026",
+      "type": "SAL",
+      "ref": "",
+      "qty": 13.5,
+      "merma": 5,
+      "operator": "Manual"
+    },
+    {
+      "date": "15/05/2026",
+      "type": "GAZ",
+      "ref": "",
+      "qty": 250,
+      "merma": 5,
+      "operator": "Manual"
+    }
+  ],
+  "merma_defecto": 5
+}
