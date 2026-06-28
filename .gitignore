@@ -1,0 +1,24 @@
+# Dependencias
+node_modules/
+
+# Base de datos SQLite (nunca versionar — usar backup.ps1)
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+
+# PDFs generados (van a la carpeta de Informes fuera del repo)
+*.pdf
+
+# Logs y temporales
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Mantener carpetas vacías en el repo
+!data/.gitkeep
+!data/backups/.gitkeep
+!registro/.gitkeep
+
+# HTMLs de registro generados (se regeneran en cada ejecución)
+registro/*.html

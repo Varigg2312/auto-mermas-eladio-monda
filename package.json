@@ -1,0 +1,17 @@
+{
+  "name": "auto-mermas-eladio-monda",
+  "version": "2.0.0",
+  "description": "Sistema de gestión de mermas — Alimentos El Hortelano",
+  "main": "generar_informe.js",
+  "scripts": {
+    "generar": "node generar_informe.js",
+    "migrar":  "node migrate.js",
+    "backup":  "powershell -ExecutionPolicy Bypass -File ./scripts/backup.ps1"
+  },
+  "dependencies": {
+    "chalk":   "^4.1.2",
+    "pdfmake": "^0.2.10",
+    "yargs":   "^17.7.2",
+    "zod":     "^3.22.4"
+  }
+}

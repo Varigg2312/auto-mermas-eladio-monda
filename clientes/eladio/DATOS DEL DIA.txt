@@ -1,0 +1,20 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   PARTE DIARIO DE MERMAS — EL HORTELANO
+   Ejecución:  node generar_informe.js --cliente eladio
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Fecha de hoy:    29/06/2026
+Operador:        Alimentos El Hortelano
+
+▌ TOMATE RECIBIDO HOY
+   Kilos recibidos:     0
+   Número de albarán:
+
+▌ GAZPACHO EXPEDIDO HOY
+   Litros expedidos:    0
+   Número de albarán:
+   % de merma:                     ← dejar vacío = 5% por defecto
+
+▌ SALMOREJO EXPEDIDO HOY
+   Kilos expedidos:     0
+   Número de albarán:
+   % de merma:                     ← dejar vacío = 5% por defecto
