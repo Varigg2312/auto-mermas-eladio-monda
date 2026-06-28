@@ -4,133 +4,133 @@
       "date": "22/06/2026",
       "ref": "9-916719",
       "qty": 65,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "18/06/2026",
       "ref": "9-916719",
       "qty": 81.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "15/06/2026",
       "ref": "9-916675",
       "qty": 172.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "11/06/2026",
       "ref": "639-916552",
       "qty": 96.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "09/06/2026",
       "ref": "639-712137",
       "qty": 160.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "08/06/2026",
       "ref": "639-916487",
       "qty": 77,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "04/06/2026",
       "ref": "639-712012",
       "qty": 97.83,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "04/06/2026",
       "ref": "639-712012",
       "qty": 72,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "01/06/2026",
       "ref": "639-916288",
       "qty": 62,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "28/05/2026",
       "ref": "639-916288",
       "qty": 97,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "27/05/2026",
       "ref": "639-711900",
       "qty": 56.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "25/05/2026",
       "ref": "639",
       "qty": 56,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "21/05/2026",
       "ref": "639-91586",
       "qty": 45.2,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "15/05/2026",
       "ref": "9-711539",
       "qty": 55.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "12/05/2026",
       "ref": "639-711631",
       "qty": 50,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "07/05/2026",
       "ref": "639-711631",
       "qty": 39.99,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "06/05/2026",
       "ref": "639-91555",
       "qty": 50.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "24/04/2026",
       "ref": "639-915421",
       "qty": 40,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "22/04/2026",
       "ref": "639-915316",
       "qty": 20,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "22/04/2026",
       "ref": "9-915159",
       "qty": 20.5,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "01/04/2026",
       "ref": "639-710835",
       "qty": 72,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     },
     {
       "date": "20/03/2026",
       "ref": "639-914339",
       "qty": 25.45,
-      "operator": "Manual"
+      "operator": "Frutas Y Verduras Eladio"
     }
   ],
   "salidas": [
@@ -140,7 +140,7 @@
       "ref": "",
       "qty": 4.5,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "25/06/2026",
@@ -148,7 +148,7 @@
       "ref": "",
       "qty": 110,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "22/06/2026",
@@ -156,7 +156,7 @@
       "ref": "",
       "qty": 13.5,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "22/06/2026",
@@ -164,7 +164,7 @@
       "ref": "",
       "qty": 124,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "18/06/2026",
@@ -172,7 +172,7 @@
       "ref": "",
       "qty": 4.5,
       "merma": 1,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "18/06/2026",
@@ -180,7 +180,7 @@
       "ref": "",
       "qty": 80,
       "merma": 1,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "16/06/2026",
@@ -188,7 +188,7 @@
       "ref": "",
       "qty": 18,
       "merma": 1,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "15/06/2026",
@@ -196,7 +196,7 @@
       "ref": "",
       "qty": 13.5,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "15/06/2026",
@@ -204,7 +204,7 @@
       "ref": "",
       "qty": 74,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "12/06/2026",
@@ -212,7 +212,7 @@
       "ref": "",
       "qty": 9,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "12/06/2026",
@@ -220,7 +220,7 @@
       "ref": "",
       "qty": 35,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "11/06/2026",
@@ -228,7 +228,7 @@
       "ref": "",
       "qty": 36,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "11/06/2026",
@@ -236,7 +236,7 @@
       "ref": "",
       "qty": 35,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "10/06/2026",
@@ -244,7 +244,7 @@
       "ref": "",
       "qty": 36,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "10/06/2026",
@@ -252,7 +252,7 @@
       "ref": "",
       "qty": 31,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "09/06/2026",
@@ -260,7 +260,7 @@
       "ref": "",
       "qty": 63,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "09/06/2026",
@@ -268,7 +268,7 @@
       "ref": "",
       "qty": 144,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "08/06/2026",
@@ -276,7 +276,7 @@
       "ref": "",
       "qty": 13.5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "08/06/2026",
@@ -284,7 +284,7 @@
       "ref": "",
       "qty": 30,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "04/06/2026",
@@ -292,7 +292,7 @@
       "ref": "",
       "qty": 13.5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "04/06/2026",
@@ -300,7 +300,7 @@
       "ref": "",
       "qty": 60,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "01/06/2026",
@@ -308,7 +308,7 @@
       "ref": "",
       "qty": 13.5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "01/06/2026",
@@ -316,7 +316,7 @@
       "ref": "",
       "qty": 52,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "28/05/2026",
@@ -324,7 +324,7 @@
       "ref": "",
       "qty": 11,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "28/05/2026",
@@ -332,7 +332,7 @@
       "ref": "",
       "qty": 131,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "27/05/2026",
@@ -340,7 +340,7 @@
       "ref": "",
       "qty": 50,
       "merma": 3,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "25/05/2026",
@@ -348,7 +348,7 @@
       "ref": "",
       "qty": 54,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "21/05/2026",
@@ -356,7 +356,7 @@
       "ref": "",
       "qty": 4.5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "21/05/2026",
@@ -364,7 +364,7 @@
       "ref": "",
       "qty": 47,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "18/05/2026",
@@ -372,7 +372,7 @@
       "ref": "",
       "qty": 5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "18/05/2026",
@@ -380,7 +380,7 @@
       "ref": "",
       "qty": 20,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "15/05/2026",
@@ -388,7 +388,7 @@
       "ref": "",
       "qty": 4.5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "15/05/2026",
@@ -396,7 +396,7 @@
       "ref": "",
       "qty": 45,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "12/05/2026",
@@ -404,7 +404,7 @@
       "ref": "",
       "qty": 15,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "11/05/2026",
@@ -412,7 +412,7 @@
       "ref": "",
       "qty": 15,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "08/05/2026",
@@ -420,7 +420,7 @@
       "ref": "",
       "qty": 20,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "07/05/2026",
@@ -428,7 +428,7 @@
       "ref": "",
       "qty": 3,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "07/05/2026",
@@ -436,7 +436,7 @@
       "ref": "",
       "qty": 30,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "01/05/2026",
@@ -444,7 +444,7 @@
       "ref": "",
       "qty": 25,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "29/04/2026",
@@ -452,7 +452,7 @@
       "ref": "",
       "qty": 25,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "28/04/2026",
@@ -460,7 +460,7 @@
       "ref": "",
       "qty": 1,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "28/04/2026",
@@ -468,7 +468,7 @@
       "ref": "",
       "qty": 5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "24/04/2026",
@@ -476,7 +476,7 @@
       "ref": "",
       "qty": 50,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "22/04/2026",
@@ -484,7 +484,7 @@
       "ref": "",
       "qty": 10,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "16/04/2026",
@@ -492,7 +492,7 @@
       "ref": "",
       "qty": 9,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "16/04/2026",
@@ -500,7 +500,7 @@
       "ref": "",
       "qty": 20,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "02/04/2026",
@@ -508,7 +508,7 @@
       "ref": "",
       "qty": 110,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "20/03/2026",
@@ -516,7 +516,7 @@
       "ref": "",
       "qty": 2,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "20/03/2026",
@@ -524,7 +524,7 @@
       "ref": "",
       "qty": 2,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "12/03/2026",
@@ -532,7 +532,7 @@
       "ref": "",
       "qty": 4.5,
       "merma": 5,
-      "operator": "Manual"
+      "operator": "Alimentos El Hortelano"
     },
     {
       "date": "29/06/2026",

@@ -8,8 +8,9 @@ const EMPRESA    = 'El Hortelano';
 const DATOS_FILE = path.join(__dirname, 'ELADIO', 'DATOS DEL DIA.txt');
 const JSON_FILE  = path.join(__dirname, 'ELADIO', 'datos_acumulados.json');
 const OUT_DIR    = 'C:\\Users\\User\\Desktop\\Hortelano\\INFORMES MERMAS';
-const FIRMA_DEF  = 'Alimentos El Hortelano';
-const REGISTRO_FILE = path.join(__dirname, 'ELADIO', 'REGISTRO.html');
+const FIRMA_DEF      = 'Alimentos El Hortelano';
+const FIRMA_PROVEEDOR = 'Frutas Y Verduras Eladio';
+const REGISTRO_FILE  = path.join(__dirname, 'ELADIO', 'REGISTRO.html');
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
 function fmt(n) {
@@ -386,7 +387,7 @@ function generarRegistroHTML(datos, kpis, fechaHoy) {
     } else {
         console.log('\n📝 Añadiendo al histórico:');
         hoy.entradas.forEach(e => {
-            datos.entradas.push({ date: fechaFmt, ref: e.ref, qty: e.qty, operator: hoy.operador });
+            datos.entradas.push({ date: fechaFmt, ref: e.ref, qty: e.qty, operator: FIRMA_PROVEEDOR });
             console.log(`   ✅ ENTRADA  ${fmt(e.qty)} kg  (${e.ref})`);
         });
         hoy.salidas.forEach(s => {
